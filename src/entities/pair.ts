@@ -53,6 +53,9 @@ let PAIR_ADDRESS_CACHE: {
   },
   [RoutablePlatform.QUICKSWAP.name]: {
     ...INITIAL_CACHE_STATE
+  },
+  [RoutablePlatform.CURVE.name]: {
+    ...INITIAL_CACHE_STATE
   }
 }
 
