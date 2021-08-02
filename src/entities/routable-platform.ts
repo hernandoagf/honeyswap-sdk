@@ -78,6 +78,13 @@ export class RoutablePlatform {
     { [ChainId.MATIC]: '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f' },
     _30
   )
+  public static readonly CURVE = new RoutablePlatform(
+    'Curve',
+    { [ChainId.XDAI]: '' },
+    { [ChainId.XDAI]: '' },
+    { [ChainId.XDAI]: '' },
+    _30
+  )
 
   public constructor(
     name: string,
